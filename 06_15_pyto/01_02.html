@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--문자열 처리!! 인덱싱 같은거-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+      var txt="I believe i can fly"
+      function ptag(){
+            var x = txt.slice(10,)
+            alert("from 10 to 17:"+ x)
+           document.write("x변수+y변수 ="+txt) <!--직접 작성-->
+            return x
+      }
+      document.getElementById('p_hl').innerHTML=ptag()
+    </script>
+</head>
+<body>
+
+<p id="txt"> </p>
+<script>document.getElementById("txt").innerHTML = txt.slice(10, 25);
+</script>
+<p id="p_hl"></p>
+
+</body>
+</html>
+<!--#######################################강사님꺼#######################################################-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <p id="p1"></p>-->
+<!--    <p id="p2"></p>-->
+<!--    <script>-->
+<!--      var txt = "I can eat bananas all day";-->
+<!--      // var x = txt.slice(0, 10)-->
+<!--      var x = txt.slice(10, 25)-->
+<!--      var all = "from 10 to 17 : " +  x-->
+<!--      alert(all)-->
+<!--      document.getElementById('p1').innerHTML = txt-->
+<!--      document.getElementById('p2').innerHTML = all-->
+<!--    </script>-->
+<!--</body>-->
+<!--</html>-->

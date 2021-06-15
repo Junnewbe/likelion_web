@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id ="demo1">내용1</p>
+<p id ="demo2">내용1</p>
+<script src="./myscript.js"></script>
+<button type="button" onclick="myFnc1()">버튼선택1 </button>
+<button type="button" onclick="myFnc2('ohhh')">버튼선택2 </button>
+<button type="button" onclick="myFnc3()">버튼선택2 </button>
+
+<script>
+
+    function myFnc3(){
+            document.getElementById("demo1").innerHTML = "Clear Data1.👿";
+            document.getElementById("demo2").innerHTML = "Clear Data2.👿";
+    }
+</script>
+</body>
+</html>
