@@ -1,5 +1,4 @@
-# Repository name : LikeLion_Web_Pri
-# 와우 크다
+# Repository name : LikeLion_Web
 ### Repository Content
   * 내용 : 자바스크립트 기본 샘플 코드
   * 참조 코드 : https://www.w3schools.com/js
